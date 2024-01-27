@@ -1,6 +1,8 @@
 ---
-import mapBg from "../../public/images/map-bg.svg?url";
-import lowImage from "/images/lowqt.svg?url";
+// import mapBg from "../../public/images/map-bg.svg?url";
+const mapBg =
+  " https://res.cloudinary.com/ddi3hd3cx/image/upload/w_1500/v1706362343/lionpark-gallery/map-bg_v7e8nf.jpg";
+// import lowImage from "/images/lowqt.svg?url";
 import "../styles/Map.scss";
 import { Icon } from "astro-icon/components";
 ---
@@ -18,12 +20,7 @@ import { Icon } from "astro-icon/components";
         <div class="lazy-loader">
           <div class="lazy-spinner"></div>
         </div>
-        <img
-          class="map__bg-map lazy"
-          src={lowImage}
-          data-src={mapBg}
-          alt="lion park map"
-        />
+        <img class="map__bg-map lazy" data-src={mapBg} alt="lion park map" />
       </div>
     </div>
   </div>

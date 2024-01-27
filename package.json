@@ -12,6 +12,7 @@
   "dependencies": {
     "@astro-community/astro-embed-integration": "^0.6.1",
     "@astrojs/react": "^3.0.9",
+    "@astrojs/sitemap": "^3.0.5",
     "@iconify-json/carbon": "^1.1.28",
     "@iconify-json/fluent": "^1.1.46",
     "@iconify-json/material-symbols-light": "^1.1.11",
