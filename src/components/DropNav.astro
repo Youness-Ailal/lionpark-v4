@@ -1,0 +1,57 @@
+---
+import "../styles/DropNav.scss";
+import { Icon } from "astro-icon/components";
+---
+
+<div class="dropdown hidden-drop">
+  <ul>
+    <li class="dropdown__item">
+      <a href="/"><Icon class="icon dropdown__icon" name="carbon:home" />Home</a
+      >
+    </li>
+    <li class="dropdown__item">
+      <a href="/Animals">
+        <Icon class="icon dropdown__icon" name="solar:paw-linear" />Animals</a
+      >
+    </li>
+    <li class="dropdown__item">
+      <a href="/Tickets">
+        <Icon class="icon dropdown__icon" name="carbon:ticket" />Tickets</a
+      >
+    </li>
+    <li class="dropdown__item">
+      <a href="/Gallery">
+        <Icon
+          class="icon dropdown__icon"
+          name="solar:gallery-broken"
+        />Gallery</a
+      >
+    </li>
+
+    <li class="dropdown__item">
+      <a href="/Contact">
+        <Icon
+          class="icon dropdown__icon"
+          name="mdi:message-outline"
+        />Contact</a
+      >
+    </li>
+  </ul>
+
+  <div class="dropdown__bottom">
+    <div class="header__right dropdown__bottom--elements">
+      <div class="header__open dropdown__bottom-links">
+        <Icon class="header__phone--icon icon" name="carbon:time" />
+        <p class="header__open--p">open daily 9:00 to 17:00 (GMT+1)</p>
+      </div>
+      <a
+        href="tel:+212624360624"
+        class="header__phone link dropdown__bottom-links">
+        <Icon class="header__phone--icon icon" name="carbon:phone" />
+        +212 123456789</a
+      >
+    </div>
+  </div>
+</div>
+<div class="dropdown__bg hidden-bg"></div>
+<script src="../script/Nav.js"></script>

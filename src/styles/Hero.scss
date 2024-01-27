@@ -1,0 +1,120 @@
+.hero {
+  min-width: 95vw;
+  margin-top: 4rem;
+  overflow-x: hidden;
+  margin-bottom: 10rem;
+
+  &__top {
+    max-width: 160rem;
+    padding: 0 5rem;
+    @media (max-width: 650px) {
+      margin-bottom: 2rem;
+      padding: 0 2rem;
+    }
+  }
+
+  &__title {
+    @media (max-width: 1400px) {
+      font-size: 8rem;
+    }
+    @media (max-width: 1162px) {
+      align-self: start;
+    }
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    button {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+  &__mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-bottom: 2rem;
+    max-width: 160rem;
+    padding: 0 5rem;
+    @media (max-width: 1162px) {
+      flex-direction: column;
+      gap: 0rem;
+      padding: 0 2rem;
+      margin-top: 4rem;
+    }
+    @media (max-width: 800px) {
+      gap: 2rem;
+    }
+  }
+  &__bottom {
+    z-index: -1;
+    padding-left: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    translate: 0 -8rem;
+    &--images {
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+  &__swiper-image {
+    border-radius: var(--radius-lg);
+    width: 35rem;
+    height: 55rem;
+    flex: 0 0 35rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid var(--normal-green);
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    &:hover &--view {
+      opacity: 1;
+    }
+    &--view {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(0, 0, 0, 0.6);
+      opacity: 0;
+      transition: 0.2s;
+    }
+    &--icon {
+      font-size: 2.6rem;
+      color: var(--bg-color);
+    }
+  }
+  &__swiper-buttons {
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: end;
+    &--icons {
+      font-size: 8rem;
+      color: var(--normal-green);
+      transition: 0.2s;
+      &:hover {
+        color: var(--normal-green-hover);
+      }
+    }
+  }
+}
+.swiper-wrapper {
+  display: flex;
+  gap: 1.5rem;
+}

@@ -1,0 +1,52 @@
+---
+import "@styles/Services.scss";
+// import { Icon } from "astro-icon/components";
+import safari from "/icons/safari2.svg?url";
+import lion from "/icons/lion2.svg?url";
+import map from "/icons/map2.svg?url";
+import music from "/icons/music2.svg?url";
+import photo from "/icons/photo2.svg?url";
+import shop from "/icons/shop2.svg?url";
+---
+
+<section class="services">
+  <div class="container services__container">
+    <div class="services__left">
+      <h2 class="heading-second services__title">Planifiez une Visite</h2>
+      <p class="paragraph services__text">
+        Explorez le cinquième plus grand zoo du Maroc, couvrant 21 hectares. Une
+        seule journée ne suffira peut-être pas pour voir toutes les expositions.
+        Utilisez la carte pour choisir les animaux que vous souhaitez voir et
+        trouvez des cafés et des aires de jeux si vous êtes avec des enfants. Le
+        zoo propose 1 267 espèces animales réparties dans 35 expositions ainsi
+        qu'un musée d'histoire du zoo.
+      </p>
+    </div>
+    <div class="services__list">
+      <figure class="service">
+        <img class="service__icon" src={safari} alt="safari jeep icon" />
+        <p class="service__text">safari</p>
+      </figure>
+      <figure class="service">
+        <img class="service__icon" src={lion} alt="safari jeep icon" />
+        <p class="service__text">cages</p>
+      </figure>
+      <figure class="service">
+        <img class="service__icon" src={map} alt="safari jeep icon" />
+        <p class="service__text">cartographie</p>
+      </figure>
+      <figure class="service">
+        <img class="service__icon" src={music} alt="safari jeep icon" />
+        <p class="service__text">Musique</p>
+      </figure>
+      <figure class="service">
+        <img class="service__icon" src={photo} alt="safari jeep icon" />
+        <p class="service__text">photo</p>
+      </figure>
+      <figure class="service">
+        <img class="service__icon" src={shop} alt="safari jeep icon" />
+        <p class="service__text">Cadeaux Shop</p>
+      </figure>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,91 @@
+.contact {
+  &__container {
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10rem;
+    @media (max-width: 1000px) {
+      gap: 5rem;
+    }
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__title {
+    margin-bottom: 6rem;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    &--icon {
+      font-size: 3rem;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      align-self: end;
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  &__info {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-self: start;
+  }
+  &__icon {
+    font-size: 3rem;
+  }
+  &__socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+  &__social {
+    font-size: 4rem;
+    padding: 0.8rem;
+    border-radius: 10rem;
+    background-color: var(--text-color);
+    color: var(--white);
+    &:hover {
+      background-color: var(--dark-green);
+    }
+  }
+  &__map {
+    min-height: 30rem;
+    max-width: 50rem;
+  }
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.custom-popup {
+  font-size: 1.6rem;
+  font-family: interphase, sans-serif;
+  font-weight: 400;
+  max-width: 30rem;
+}
+
+.custom-marker {
+  height: 5rem;
+  width: 5rem;
+  background-image: url("../../public/icons/marker.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

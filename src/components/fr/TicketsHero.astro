@@ -1,0 +1,111 @@
+---
+import "@styles/Tickets.scss";
+import "@styles/Picka.scss";
+import Loader from "@ui/Loader.astro";
+---
+
+<section class="tickets">
+  <div class="container tickets__container">
+    <div class="tickets__top">
+      <h2 class="heading-second tickets__title page-title">
+        Achetez vos Billets
+      </h2>
+    </div>
+    <div class="tickets__steps">
+      <div class="tickets__bottom">
+        <div class="tickets__left">
+          <h4 class="heading-third tickets__step">1. Choisir une Date</h4>
+          <div class="tickets__picker-container">
+            <Loader />
+            <input type="text" id="datepicker" autocomplete="off" />
+          </div>
+        </div>
+        <form id="ticket-members-form" class="tickets__right ticket">
+          <h4 class="heading-third tickets__step">2. Choisir les billets</h4>
+          <div class="ticket__persons">
+            <div class="person">
+              <p class="paragraph person__age">
+                Adultes <span>(18+ ans)</span>
+              </p>
+              <p class="paragraph person__price">35 MAD</p>
+              <div class="person__qt">
+                <button type="button" class="cta person__minest">-</button>
+                <input
+                  class="person-input input"
+                  type="number"
+                  id="adult-input"
+                  value="1"
+                />
+                <button type="button" class="cta person__plus">+</button>
+              </div>
+            </div>
+            <div class="person">
+              <p class="paragraph person__age">
+                Enfants <span>(4-17 ans)</span>
+              </p>
+              <p class="paragraph person__price">20 MAD</p>
+              <div class="person__qt">
+                <button type="button" class="cta person__minest">-</button>
+                <input
+                  class="person-input input"
+                  type="number"
+                  name=""
+                  id="kid-input"
+                  value="0"
+                />
+                <button type="button" class="cta person__plus">+</button>
+              </div>
+            </div>
+            <div class="person">
+              <p class="paragraph person__age">
+                Bébés <span>(0-4 ans)</span>
+              </p>
+              <p class="paragraph person__price">00 MAD</p>
+              <div class="person__qt">
+                <button type="button" class="cta person__minest">-</button>
+                <input
+                  class="person-input input"
+                  type="number"
+                  name=""
+                  id="kid-input"
+                  value="0"
+                />
+                <button type="button" class="cta person__plus">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="person__email">
+            <div class="person__email--text">
+              <p class="person__email--text-top">Adresse e-mail</p>
+              <p class="person__email--text-bottom">
+                billets seront envoyés à cette e-mail*
+              </p>
+            </div>
+            <input
+              type="email"
+              class="ticket__email input"
+              placeholder="email@example.com"
+              required
+            />
+          </div>
+          <div class="ticket__bottom">
+            <div class="ticket__total">
+              <h4 class="ticket__total--text heading-third">
+                Total:<span class="ticket__total--right">
+                  <span class="ticket__total--price">35</span> MAD</span
+                >
+              </h4>
+            </div>
+            <button class="cta to-payment"
+              >passer au paiement
+              <div class="cta-loading hidden"></div>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="ticket__office"></div>
+    </div>
+  </div>
+</section>
+<script src="../../script/tickets_fr.js"></script>
+<script src="https://js.stripe.com/v3/"></script>

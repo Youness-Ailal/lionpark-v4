@@ -1,0 +1,44 @@
+---
+import "@styles/Subscribe.scss";
+const IMAGE_BASE_URL =
+  "https://res.cloudinary.com/ddi3hd3cx/image/upload/w_500/lionpark-swipers";
+const IMAGE_BASE_URL_LOW =
+  "https://res.cloudinary.com/ddi3hd3cx/image/upload/w_100/lionpark-swipers";
+---
+
+<secion class="subscribe" id="sub">
+  <div class="container subscribe__container">
+    <div class="subscribe__left">
+      <h2 class="heading-second subscribe__title">
+        Abonnez-vous pour les dernières actualités
+      </h2>
+      <p class="paragraph subscribe__p">
+        Restez connecté avec tout ce qui concerne les lions dans notre zoo.
+        Abonnez-vous pour recevoir les dernières nouvelles sur les heures de
+        repas, les réductions spéciales et plus encore. Soyez le premier à
+        savoir quand nos majestueux lions rugissent et quand des économies
+        fantastiques se présentent à vous.
+      </p>
+      <form action="">
+        <input
+          class="input"
+          type="email"
+          name=""
+          id="email"
+          placeholder="Email..."
+          required
+        />
+
+        <button type="submit" class="cta">S'abonner</button>
+      </form>
+    </div>
+    <div class="subscribe__right">
+      <img
+        class="lazy"
+        data-src={`${IMAGE_BASE_URL}/swiper_3.jpg`}
+        src={`${IMAGE_BASE_URL_LOW}/swiper_3.jpg`}
+        alt="lionet from our lion zoo"
+      />
+    </div>
+  </div>
+</secion>

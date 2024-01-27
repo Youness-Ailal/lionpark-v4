@@ -1,0 +1,584 @@
+[
+  {
+    "id": 100,
+    "name": "Lion",
+    "name_fr": "Lion",
+    "top_speed": "80",
+    "order": "Carnivora",
+    "scientific_name": "Panthera leo",
+
+    "size": "Le lion est un grand félin du genre Panthera. Il est musclé, a une poitrine profonde et une tête courte et arrondie, un cou réduit et des oreilles rondes. Sa fourrure est courte, fauve et dense avec une queue touffue.",
+
+    "lifespan": "In the wild, lions typically live 10-14 years. In captivity, they can live over 20 years with proper care.",
+
+    "conservation": "Vulnerable due to habitat loss, human-wildlife conflict and illegal hunting.",
+
+    "distribution": "Lions inhabit grasslands, savannas, dense bush and woodlands across sub-Saharan Africa. Their range has declined significantly from historic levels.",
+
+    "species": "Lions are an iconic symbol of Africa and are featured in many aspects of human culture. They have cultural significance in Africa and evoke a sense of power and nobility. Lions inspire both awe and fear and have been prominent in folklore, mythology and art across history and cultures.",
+
+    "nutrition": "As obligate carnivores, lions primarily eat large ungulates like zebra, wildebeest, buffalo and antelope. They will also hunt smaller prey and scavenge carrion when necessary. Lions are apex predators that play a key ecological role.",
+
+    "lifestyle": "Lions are highly social and live in cohesive family groups called prides. Prides work cooperatively to defend territory, raise cubs and hunt prey. Lionesses do the majority of hunting while males focus on protecting the pride. Lions are mostly nocturnal and sleep 16-20 hours per day. They communicate via roaring, scent marking and other vocalizations.",
+    "image_1": "https://images.unsplash.com/photo-1589652045525-4496b6099023?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&q=80&w=1718&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "size_fr": "Le lion est un grand félin du genre Panthera. Il est musclé, a une poitrine profonde, une tête courte et arrondie, un cou réduit et des oreilles rondes. Sa fourrure est courte, fauve et dense avec une queue touffue.",
+    "lifespan_fr": "À l'état sauvage, les lions vivent généralement de 10 à 14 ans. En captivité, ils peuvent vivre plus de 20 ans avec des soins appropriés.",
+    "conservation_fr": "Vulnérable en raison de la perte d'habitat, des conflits entre l'homme et la faune sauvage et de la chasse illégale.",
+    "distribution_fr": "Les lions habitent les plaines herbeuses, les savanes, les buissons denses et les bois en Afrique subsaharienne. Leur aire de répartition a considérablement diminué par rapport aux niveaux historiques.",
+    "species_fr": "Les lions sont un symbole emblématique de l'Afrique et sont présents dans de nombreux aspects de la culture humaine. Ils ont une importance culturelle en Afrique et évoquent un sentiment de puissance et de noblesse. Les lions inspirent à la fois l'admiration et la peur et ont été prédominants dans le folklore, la mythologie et l'art à travers l'histoire et les cultures.",
+    "nutrition_fr": "En tant que carnivores obligatoires, les lions se nourrissent principalement de grands ongulés tels que les zèbres, les gnous, les buffles et les antilopes. Ils chassent également des proies plus petites et se nourrissent de charognes lorsque cela est nécessaire. Les lions sont des prédateurs de sommet qui jouent un rôle écologique clé.",
+    "lifestyle_fr": "Les lions sont très sociaux et vivent en groupes familiaux cohésifs appelés fiertés. Les fiertés travaillent en coopération pour défendre leur territoire, élever les lionceaux et chasser les proies. Les lionnes effectuent la majorité de la chasse tandis que les mâles se concentrent sur la protection de la fierté. Les lions sont principalement nocturnes et dorment de 16 à 20 heures par jour. Ils communiquent par des rugissements, des marquages olfactifs et d'autres vocalisations."
+  },
+  {
+    "id": 101,
+    "name": "Tiger",
+    "top_speed": "65",
+    "order": "Carnivora",
+    "scientific_name": "Panthera tigris",
+
+    "size": "The tiger is the largest cat species and a member of the genus Panthera. It is muscular, with a rounded head, a thick neck and a stocky body. Its fur is orange-brown with black stripes.",
+
+    "lifespan": "In the wild, tigers live 8-10 years on average. In captivity with proper care, they can live over 20 years.",
+
+    "conservation": "Endangered due to habitat loss, poaching and human-wildlife conflict. Tiger populations have declined significantly.",
+
+    "distribution": "Tigers inhabit various forest, grassland and wetland habitats across South and Southeast Asia. Their range has shrunk dramatically.",
+
+    "species": "As a charismatic megafauna species, tigers hold great cultural significance and are revered in many Asian cultures as a symbol of strength and courage. They have been featured extensively in folklore, mythology, art and literature. Tiger parts are also used in traditional Asian medicine, fueling the illegal wildlife trade that threatens wild tigers.",
+
+    "nutrition": "As obligate carnivores, tigers mainly consume large ungulates like deer, wild pigs, buffalo and cattle. They occasionally eat smaller prey and are opportunistic hunters.",
+
+    "lifestyle": "Tigers are solitary animals that establish and defend their own territories. They are largely nocturnal and very elusive. Tigers are stealthy ambush hunters that rely on camouflage, stealth and the element of surprise to catch prey. They are strong swimmers and very agile.",
+    "image_1": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1549480017-d76466a4b7e8?auto=format&fit=crop&q=80&w=1712&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Tigre",
+    "order_fr": "Carnivores",
+    "size_fr": "Le tigre est la plus grande espèce de chat et fait partie du genre Panthera. Il est musclé, avec une tête ronde, un cou épais et un corps trapu. Sa fourrure est orange-brun avec des rayures noires.",
+
+    "lifespan_fr": "À l'état sauvage, les tigres vivent en moyenne de 8 à 10 ans. En captivité, avec des soins appropriés, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "En danger en raison de la perte d'habitat, du braconnage et des conflits entre l'homme et la faune sauvage. Les populations de tigres ont fortement diminué.",
+
+    "distribution_fr": "Les tigres habitent divers habitats forestiers, de prairies et de zones humides en Asie du Sud et du Sud-Est. Leur aire de répartition a considérablement diminué.",
+
+    "species_fr": "En tant qu'espèce charismatique de mégafaune, les tigres ont une grande importance culturelle et sont vénérés dans de nombreuses cultures asiatiques comme un symbole de force et de courage. Ils ont été largement représentés dans le folklore, la mythologie, l'art et la littérature. Les parties du tigre sont également utilisées dans la médecine traditionnelle asiatique, alimentant le commerce illégal de la faune sauvage qui menace les tigres sauvages.",
+
+    "nutrition_fr": "En tant que carnivores obligatoires, les tigres se nourrissent principalement de grands ongulés tels que les cerfs, les sangliers, les buffles et les bovins. Ils mangent parfois des proies plus petites et sont des chasseurs opportunistes.",
+
+    "lifestyle_fr": "Les tigres sont des animaux solitaires qui établissent et défendent leurs propres territoires. Ils sont principalement nocturnes et très furtifs. Les tigres sont des chasseurs embusqués furtifs qui comptent sur le camouflage, la furtivité et l'effet de surprise pour capturer leur proie. Ils sont de bons nageurs et très agiles."
+  },
+  {
+    "id": 102,
+    "name": "Leopard",
+    "top_speed": "58",
+    "order": "Carnivora",
+    "scientific_name": "Panthera pardus",
+
+    "size": "The leopard is a large felid of the genus Panthera. It is muscular, with a long body, relatively short legs and a broad head. Its fur is pale yellow to gray with black spots.",
+
+    "lifespan": "Leopards typically live 12-15 years in the wild. With proper care in captivity, they can live over 20 years.",
+
+    "conservation": "Classified as Vulnerable by the IUCN due to habitat loss, poaching and prey depletion. Leopard populations are declining across their range.",
+
+    "distribution": "Leopards have an extensive historic range in Africa and Asia. Today they inhabit sub-Saharan Africa, the Middle East, Russia, China, Southeast Asia and the Korean Peninsula.",
+
+    "species": "The elusive leopard features prominently in African and Asian folklore and mythology. Its stealth hunting evokes a sense of mystery, but is also feared. Leopards represent adaptability given their diverse habitats. Their iconic spotted coat has inspired human culture across their range.",
+
+    "nutrition": "Leopards are carnivores and prey on a wide variety of mammals based on availability, including antelope, monkeys, rodents, hares, birds, reptiles and amphibians.",
+
+    "lifestyle": "Leopards lead a solitary, nocturnal existence. They rest in vegetation, caves and rock crevices by day. Males demarcate territories with scent markings and defend them from other males. Females raise cubs independently in their own home ranges after brief mating encounters.",
+    "image_1": "https://images.unsplash.com/photo-1544985361-b420d7a77043?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1560968950-21518936fcea?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Léopard",
+    "order_fr": "Carnivores",
+    "size_fr": "Le léopard est un grand félin du genre Panthera. Il est musclé, avec un corps long, des jambes relativement courtes et une tête large. Sa fourrure est jaune pâle à grise avec des taches noires.",
+
+    "lifespan_fr": "Les léopards vivent généralement de 12 à 15 ans à l'état sauvage. Avec des soins appropriés en captivité, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "Classé comme vulnérable par l'UICN en raison de la perte d'habitat, du braconnage et de la diminution des proies. Les populations de léopards diminuent dans leur aire de répartition.",
+
+    "distribution_fr": "Les léopards ont une vaste aire de répartition historique en Afrique et en Asie. Aujourd'hui, ils habitent l'Afrique subsaharienne, le Moyen-Orient, la Russie, la Chine, l'Asie du Sud-Est et la péninsule coréenne.",
+
+    "species_fr": "Le léopard insaisissable figure de manière prominente dans le folklore et la mythologie africains et asiatiques. Sa chasse furtive évoque un sentiment de mystère, mais aussi de peur. Les léopards représentent l'adaptabilité compte tenu de leurs habitats diversifiés. Leur pelage tacheté emblématique a inspiré la culture humaine dans toute leur aire de répartition.",
+
+    "nutrition_fr": "Les léopards sont des carnivores et chassent une grande variété de mammifères en fonction de leur disponibilité, notamment des antilopes, des singes, des rongeurs, des lièvres, des oiseaux, des reptiles et des amphibiens.",
+
+    "lifestyle_fr": "Les léopards mènent une existence solitaire et nocturne. Ils se reposent dans la végétation, les grottes et les crevasses rocheuses pendant la journée. Les mâles marquent leur territoire avec des marques odorantes et le défendent contre d'autres mâles. Les femelles élèvent les petits de manière indépendante dans leurs propres zones après de brèves rencontres d'accouplement."
+  },
+
+  {
+    "id": 103,
+    "name": "White Lion",
+    "top_speed": "96",
+    "order": "Carnivora",
+    "scientific_name": "Panthera leo (leucistic)",
+
+    "size": "The white lion is a rare color variant of the African lion. It has a distinctive pale to white coat and blue or light-colored eyes.",
+
+    "lifespan": "White lions have a typical lifespan of 10-14 years in the wild, similar to other African lions.",
+
+    "conservation": "Classified as Vulnerable like the larger African lion populations. White lions number less than 13 in the wild and around 300 in captivity.",
+
+    "distribution": "White lions are extremely rare in the wild, found only in South Africa's Greater Timbavati region. They do not exist as a wild population.",
+
+    "species": "The white lion holds cultural significance among indigenous African tribes who saw them as divine or lucky. Their striking appearance has captivated global fascination. But selective breeding for the trait raises inbreeding concerns.",
+
+    "nutrition": "As opportunistic predators, white lions hunt cooperatively in prides for zebra, wildebeest, antelope and other large game.",
+
+    "lifestyle": "White lions live in social prides with related females and exhibit behaviors typical of African lions - resting by day, patroling territory and hunting at dawn, dusk and night.",
+    "image_1": "https://img.freepik.com/free-photo/lioness-natural-environment_181624-25431.jpg?w=1380&t=st=1698765674~exp=1698766274~hmac=b26505b1a50b20bca7bd3c9d83466869c8b7cfe65f02fb85d1d1cbe67acb55bf",
+    "image_2": "https://img.freepik.com/free-photo/white-lioness-portrait_181624-28203.jpg?w=1380&t=st=1698765703~exp=1698766303~hmac=66175f3a6b1cb061a482b6e95253941ab01e4465d4067348e72baf03fdfcec64",
+    "name_fr": "Lion Blanc",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le lion blanc est une variante de couleur rare du lion africain. Il a un pelage distinctivement pâle à blanc et des yeux bleus ou clairs.",
+
+    "lifespan_fr": "Les lions blancs ont une espérance de vie typique de 10 à 14 ans à l'état sauvage, similaire aux autres lions africains.",
+
+    "conservation_fr": "Classifié comme vulnérable comme les populations plus grandes de lions africains. Les lions blancs sont moins de 13 à l'état sauvage et environ 300 en captivité.",
+
+    "distribution_fr": "Les lions blancs sont extrêmement rares à l'état sauvage, se trouvant uniquement dans la région du Grand Timbavati en Afrique du Sud. Ils n'existent pas en tant que population sauvage.",
+
+    "species_fr": "Le lion blanc a une signification culturelle parmi les tribus autochtones africaines qui les considéraient comme divins ou chanceux. Leur apparence frappante a captivé l'intérêt mondial. Cependant, l'élevage sélectif pour cette caractéristique soulève des préoccupations de consanguinité.",
+
+    "nutrition_fr": "En tant que prédateurs opportunistes, les lions blancs chassent en coopération au sein de leur fierté pour des proies telles que des zèbres, des gnous, des antilopes et d'autres gros gibiers.",
+
+    "lifestyle_fr": "Les lions blancs vivent en fiertés sociales avec des femelles apparentées et exhibent des comportements typiques des lions africains - se reposant pendant la journée, patrouillant leur territoire et chassant à l'aube, au crépuscule et la nuit."
+  },
+
+  {
+    "id": 104,
+    "name": "Jaguar",
+    "top_speed": "80",
+    "order": "Carnivora",
+    "scientific_name": "Panthera onca",
+
+    "size": "The jaguar is a large felid of the genus Panthera. It is muscular, with a compact body, a broad head and powerful jaws. Its fur is typically orange or tan with black rosette-shaped markings.",
+
+    "lifespan": "In the wild, jaguars live 11-15 years. With proper care in captivity, they can live over 20 years.",
+
+    "conservation": "The jaguar is Near Threatened due to habitat destruction and fragmentation across its Latin American range.",
+
+    "distribution": "Jaguars are found from Mexico to Argentina in tropical and subtropical moist forests, wetlands and savanna habitats.",
+
+    "species": "Revered by indigenous cultures, the jaguar embodies power and ferocity. It was prominent in rituals, folklore and shamanism for cultures like the Maya and Aztec. Jaguars represent the mysterious forces of nature.",
+
+    "nutrition": "As apex predators, jaguars have an expansive diet of over 85 species. They prey on mammals like tapir, capybara and peccary but also target livestock, exacerbating human conflicts.",
+
+    "lifestyle": "Jaguars are solitary animals with minimal social structure beyond mothers and cubs. Males establish large home ranges which they advertise via scraping and scent marking behaviors.",
+    "image_1": "https://images.unsplash.com/photo-1601544359642-c76c4f7c3221?auto=format&fit=crop&q=80&w=1744&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://plus.unsplash.com/premium_photo-1673545660859-423a44316681?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Jaguar",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le jaguar est un grand félin du genre Panthera. Il est musclé, avec un corps compact, une tête large et des mâchoires puissantes. Sa fourrure est généralement orange ou fauve avec des marques en forme de rosette noire.",
+
+    "lifespan_fr": "À l'état sauvage, les jaguars vivent de 11 à 15 ans. Avec des soins appropriés en captivité, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "Le jaguar est considéré comme quasi menacé en raison de la destruction et de la fragmentation de son habitat dans toute sa gamme en Amérique latine.",
+
+    "distribution_fr": "On trouve des jaguars du Mexique à l'Argentine dans les forêts tropicales humides, les zones humides et les habitats de savane subtropicaux.",
+
+    "species_fr": "Révéré par les cultures autochtones, le jaguar incarne la puissance et la férocité. Il était prédominant dans les rituels, le folklore et le chamanisme pour des cultures telles que les Mayas et les Aztèques. Les jaguars représentent les forces mystérieuses de la nature.",
+
+    "nutrition_fr": "En tant que prédateurs de sommet, les jaguars ont un régime alimentaire étendu de plus de 85 espèces. Ils chassent des mammifères tels que le tapir, le capybara et le pécaré, mais ciblent également le bétail, exacerbant les conflits humains.",
+
+    "lifestyle_fr": "Les jaguars sont des animaux solitaires avec une structure sociale minimale au-delà des mères et des petits. Les mâles établissent de vastes zones d'habitat qu'ils annoncent par des comportements de grattage et de marquage olfactif."
+  },
+
+  {
+    "id": 105,
+    "name": "Snow Leopard",
+    "top_speed": "55",
+    "order": "Carnivora",
+    "scientific_name": "Panthera uncia",
+
+    "size": "The snow leopard is a large felid of the genus Panthera. It is muscular, with a long body, relatively short legs and a broad head. Its fur is pale gray with dark rosette-shaped markings.",
+
+    "lifespan": "Snow leopards live 10-12 years on average in the wild. In captivity with proper care, they can live over 20 years.",
+
+    "conservation": "Classified as Vulnerable by IUCN. Snow leopards face threats from poaching, prey loss, habitat degradation, and conflict with humans.",
+
+    "distribution": "Snow leopards are found at high elevations across 12 Central Asian countries. Their remote mountain habitat provides refuge but poses monitoring challenges.",
+
+    "species": "Local cultures imbue the snow leopard with mythological qualities of divinity, spirituality and ferocity. Their adapted beauty and survival in harsh conditions also garners respect.",
+
+    "nutrition": "Snow leopards are carnivores dependent on wild mountain prey like ibex, argali, markhor, marmots and hares. They hunt using stealth, opportunism and dexterity in rugged terrain.",
+
+    "lifestyle": "Snow leopards lead solitary lives except for mating purposes. They communicate using scraping and scent markings. Their camouflage and elusiveness make them difficult to observe and study in the wild.",
+    "image_1": "https://images.unsplash.com/photo-1694330027973-e76edfa17dd5?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1688417142483-7465800518df?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Léopard des neiges",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le léopard des neiges est un grand félin du genre Panthera. Il est musclé, avec un corps long, des pattes relativement courtes et une tête large. Sa fourrure est d'un gris pâle avec des marques sombres en forme de rosette.",
+
+    "lifespan_fr": "Les léopards des neiges vivent en moyenne de 10 à 12 ans à l'état sauvage. En captivité, avec des soins appropriés, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "Classifié comme vulnérable par l'UICN. Les léopards des neiges font face aux menaces du braconnage, de la perte de proies, de la dégradation de l'habitat et des conflits avec les humains.",
+
+    "distribution_fr": "On trouve des léopards des neiges à des altitudes élevées dans 12 pays d'Asie centrale. Leur habitat montagneux éloigné offre un refuge mais pose des défis de surveillance.",
+
+    "species_fr": "Les cultures locales imprègnent le léopard des neiges de qualités mythologiques de divinité, de spiritualité et de férocité. Leur beauté adaptée et leur survie dans des conditions difficiles suscitent également le respect.",
+
+    "nutrition_fr": "Les léopards des neiges sont des carnivores dépendants des proies sauvages de montagne telles que l'ibex, l'argali, le markhor, les marmottes et les lièvres. Ils chassent en utilisant la discrétion, l'opportunisme et la dextérité dans un terrain accidenté.",
+
+    "lifestyle_fr": "Les léopards des neiges mènent une vie solitaire, sauf à des fins de reproduction. Ils communiquent en utilisant des marquages par grattage et par odeur. Leur camouflage et leur caractère insaisissable les rendent difficiles à observer et à étudier à l'état sauvage."
+  },
+
+  {
+    "id": 106,
+    "name": "Clouded Leopard",
+    "top_speed": "60",
+    "order": "Carnivora",
+    "scientific_name": "Neofelis nebulosa",
+
+    "size": "The clouded leopard is a medium-sized felid of the genus Neofelis. It is muscular, with a long body, relatively short legs and a broad head. Its fur is grayish or yellowish with large cloud-shaped markings.",
+
+    "lifespan": "Clouded leopards live 11-15 years on average in the wild. With proper care in captivity, they can live over 20 years.",
+
+    "conservation": "Classified as Vulnerable by IUCN. Major threats include deforestation, poaching and prey loss across its Southeast Asian range.",
+
+    "distribution": "Clouded leopards occupy primary and secondary tropical rainforests up to 2,000 meters elevation on the mainland and islands of Southeast Asia.",
+
+    "species": "The rare, canopy-dwelling clouded leopard features in folklore as an animal linked to the heavens due to its arboreal nature. But it is also feared as a predator capable of dropping down from the trees.",
+
+    "nutrition": "An opportunistic predator, the clouded leopard eats a variety of mammals and birds including deer, civets, monkeys, porcupines, squirrels and more.",
+
+    "lifestyle": "Clouded leopards lead a largely nocturnal, solitary existence, coming together only for mating purposes. They are adept climbers and can hang upside down from branches.",
+    "image_1": "https://cdn.pixabay.com/photo/2020/05/27/18/57/cloud-leopard-5228482_1280.jpg",
+    "image_2": "https://images.unsplash.com/photo-1503435400567-c94dcafd1f86?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Léopard nébuleux",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le léopard nébuleux est un félin de taille moyenne du genre Neofelis. Il est musclé, avec un corps long, des pattes relativement courtes et une tête large. Sa fourrure est grisâtre ou jaunâtre avec de grandes marques en forme de nuages.",
+
+    "lifespan_fr": "Les léopards nébuleux vivent en moyenne de 11 à 15 ans à l'état sauvage. En captivité, avec des soins appropriés, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "Classifié comme vulnérable par l'UICN. Les principales menaces comprennent la déforestation, le braconnage et la perte de proies dans leur aire de répartition en Asie du Sud-Est.",
+
+    "distribution_fr": "Les léopards nébuleux occupent les forêts tropicales primaires et secondaires jusqu'à 2 000 mètres d'altitude sur le continent et les îles d'Asie du Sud-Est.",
+
+    "species_fr": "Le rare léopard nébuleux habitant la canopée figure dans les légendes comme un animal lié aux cieux en raison de sa nature arboricole. Mais il est également craint comme un prédateur capable de descendre des arbres.",
+
+    "nutrition_fr": "Prédateur opportuniste, le léopard nébuleux se nourrit d'une variété de mammifères et d'oiseaux, notamment des cerfs, des civettes, des singes, des porcs-épics, des écureuils, et plus encore.",
+
+    "lifestyle_fr": "Les léopards nébuleux mènent une existence largement nocturne et solitaire, ne se regroupant que pour se reproduire. Ils sont des grimpeurs habiles et peuvent se suspendre tête en bas aux branches."
+  },
+
+  {
+    "id": 107,
+    "name": "Lynx",
+    "top_speed": "50",
+    "order": "Carnivora",
+    "scientific_name": "Lynx",
+
+    "size": "Lynxes are medium-sized felids. They have a short body, long legs, a large head with prominent ears and a short tail. Their fur is typically gray or brown with black markings.",
+
+    "lifespan": "Lynxes live 10-15 years on average in the wild. With proper care in captivity, they can live over 20 years.",
+
+    "conservation": "IUCN classifies lynxes as Least Concern overall, but some populations are threatened by habitat loss, hunting and incidental trapping.",
+
+    "distribution": "The Eurasian lynx inhabits forests across Europe and Russia. The Canada lynx is native to Canada and Alaska. The Iberian lynx lives on the Iberian Peninsula. Bobcats roam across North America.",
+
+    "species": "Lynx hold significance in Northern Native American folklore. Their sharp vision, stealth hunting, and elusiveness endow them with an air of mystery that commands respect for the unknown.",
+
+    "nutrition": "As strict carnivores, lynxes prey primarily on mammals like hares, rabbits, squirrels, mice, voles, grouse, ptarmigan and ducks. They stalk, rush, and pounce on their targets.",
+
+    "lifestyle": "Lynx are predominantly nocturnal and crepuscular hunters. They lead solitary lives within home ranges scent-marked by urine, scat, and debris scraping. Females raise kittens alone.",
+    "image_1": "https://images.unsplash.com/photo-1612356700139-ba3b20f5f468?auto=format&fit=crop&q=80&w=1788&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1573595287099-eabfdb20ec6a?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Lynx",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Les lynx sont des félidés de taille moyenne. Ils ont un corps court, des pattes longues, une grande tête avec des oreilles proéminentes et une queue courte. Leur fourrure est généralement grise ou brune avec des marques noires.",
+
+    "lifespan_fr": "Les lynx vivent en moyenne de 10 à 15 ans à l'état sauvage. En captivité, avec des soins appropriés, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "L'UICN classe les lynx comme de préoccupation mineure dans l'ensemble, mais certaines populations sont menacées par la perte d'habitat, la chasse et le piégeage accidentel.",
+
+    "distribution_fr": "Le lynx eurasien habite les forêts à travers l'Europe et la Russie. Le lynx du Canada est originaire du Canada et de l'Alaska. Le lynx ibérique vit sur la péninsule ibérique. Les lynx roux errent en Amérique du Nord.",
+
+    "species_fr": "Les lynx ont une importance dans le folklore des Amérindiens du Nord. Leur vision aiguisée, leur chasse furtive et leur caractère insaisissable leur confèrent une aura de mystère qui commande le respect de l'inconnu.",
+
+    "nutrition_fr": "En tant que carnivores stricts, les lynx se nourrissent principalement de mammifères tels que les lièvres, les lapins, les écureuils, les souris, les campagnols, les tétras, les lagopèdes et les canards. Ils guettent, se précipitent et sautent sur leurs proies.",
+
+    "lifestyle_fr": "Les lynx sont principalement des chasseurs nocturnes et crépusculaires. Ils mènent une vie solitaire à l'intérieur de territoires marqués par l'urine, les excréments et les grattages de débris. Les femelles élèvent seules leurs petits."
+  },
+  {
+    "id": 108,
+    "name": "Black Panther",
+    "top_speed": "90",
+    "order": "Carnivora",
+    "scientific_name": "Panthera pardus (melanistic)",
+
+    "size": "The black panther is the dark color variant of leopards and jaguars. It has a black coat with faint rosette markings visible in certain lighting.",
+
+    "lifespan": "Black panthers have typical lifespans of 12-15 years in the wild, and potentially longer in captivity - similar to non-melanistic individuals.",
+
+    "conservation": "Black panthers face the same threats as regular leopard and jaguar populations. All are vulnerable to poaching and habitat loss.",
+
+    "distribution": "Melanistic leopards occur in southeast Asia. Melanistic jaguars are found in parts of Central and South America.",
+
+    "species": "The black panther holds an enduring allure, shrouded in mystery. It symbolizes the darkness, yet also represents rarity, power and the cryptic unknown.",
+
+    "nutrition": "As carnivores, black panthers hunt medium to large prey like deer, peccaries, capybaras, monkeys and occasional livestock.",
+
+    "lifestyle": "Black panthers share the solitary, nocturnal hunting behaviors of regular leopards and jaguars. They are known for their stealth, agility and strength.",
+    "image_1": "https://cdn.pixabay.com/photo/2018/06/10/12/52/black-panther-3466399_960_720.jpg",
+    "image_2": "https://cdn.pixabay.com/photo/2023/05/23/16/29/picture-8013085_1280.jpg",
+    "name_fr": "Panthère noire",
+    "order_fr": "Carnivores",
+
+    "size_fr": "La panthère noire est la variante de couleur sombre des léopards et jaguars. Elle a une robe noire avec de légères marques de rosette visibles dans certaines conditions d'éclairage.",
+
+    "lifespan_fr": "Les panthères noires ont une espérance de vie typique de 12 à 15 ans à l'état sauvage, et potentiellement plus longue en captivité - similaire aux individus non mélanistiques.",
+
+    "conservation_fr": "Les panthères noires font face aux mêmes menaces que les populations régulières de léopards et jaguars. Tous sont vulnérables au braconnage et à la perte d'habitat.",
+
+    "distribution_fr": "Les léopards mélanistiques se trouvent en Asie du Sud-Est. Les jaguars mélanistiques sont présents dans certaines parties de l'Amérique centrale et du Sud.",
+
+    "species_fr": "La panthère noire exerce une attraction durable, enveloppée de mystère. Elle symbolise l'obscurité, mais représente également la rareté, la puissance et l'inconnu cryptique.",
+
+    "nutrition_fr": "En tant que carnivores, les panthères noires chassent des proies de taille moyenne à grande telles que des cerfs, des pécaris, des capybaras, des singes et occasionnellement du bétail.",
+
+    "lifestyle_fr": "Les panthères noires partagent les comportements solitaires et nocturnes de chasse des léopards et jaguars réguliers. Elles sont connues pour leur discrétion, leur agilité et leur force."
+  },
+
+  {
+    "id": 109,
+    "name": "African Lion",
+    "top_speed": 80,
+    "order": "Carnivora",
+    "scientific_name": "Panthera leo",
+
+    "size": "African Lions are among the largest of the big cats, with males reaching up to 11 feet in length (including the tail) and weighing around 190 kg, while females are slightly smaller. They are robust and muscular animals, known for their distinctive manes, which are more pronounced in males.",
+
+    "lifespan": "In the wild, African Lions typically live for 10 to 14 years, while those in captivity can live up to 20 years. Their lifespan is influenced by factors such as access to food, territory, and competition with other predators.",
+
+    "conservation": "The African Lion is currently listed as Vulnerable due to habitat loss and poaching. Their populations have declined due to human encroachment and illegal wildlife trade, making conservation efforts crucial to their survival.",
+
+    "distribution": "African Lions are found across sub-Saharan Africa, from the savannas of East Africa to the dense woodlands of West Africa. They inhabit grasslands, savannas, and open woodlands, living in prides consisting of several related lionesses, their cubs, and a few adult males. Lions are social animals and live in groups known as prides to protect territory and hunt cooperatively.",
+
+    "species": "African Lions have cultural significance and have been featured in folklore, mythology, and are often associated with strength and bravery. However, they face threats from habitat loss and human-wildlife conflicts, making education and conservation efforts crucial to their long-term survival.",
+
+    "nutrition": "African Lions are carnivorous and primarily hunt large mammals such as zebras, wildebeests, and buffalo. Lions are opportunistic predators, and their diet may also include smaller mammals and scavenged carrion when hunting is challenging.",
+
+    "lifestyle": "Lions are known for their social behavior, living in prides that hunt and protect their territory together. They are often active at night, sleeping during the day. Male lions are responsible for defending the pride's territory, while lionesses are the primary hunters.",
+    "image_1": "https://cdn.pixabay.com/photo/2022/10/24/08/47/lion-7542944_1280.jpg",
+    "image_2": "https://cdn.pixabay.com/photo/2018/04/13/21/24/lion-3317670_1280.jpg",
+    "name_fr": "Lion d'Afrique",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Les Lions d'Afrique sont parmi les plus grands des grands félins, les mâles atteignant jusqu'à 11 pieds de longueur (y compris la queue) et pesant environ 190 kg, tandis que les femelles sont légèrement plus petites. Ce sont des animaux robustes et musclés, connus pour leurs crinières distinctives, plus prononcées chez les mâles.",
+
+    "lifespan_fr": "À l'état sauvage, les Lions d'Afrique vivent généralement de 10 à 14 ans, tandis que ceux en captivité peuvent vivre jusqu'à 20 ans. Leur espérance de vie est influencée par des facteurs tels que l'accès à la nourriture, le territoire et la concurrence avec d'autres prédateurs.",
+
+    "conservation_fr": "Le Lion d'Afrique est actuellement classé comme Vulnérable en raison de la perte d'habitat et du braconnage. Leurs populations ont diminué en raison de l'empreinte humaine et du commerce illégal d'animaux sauvages, rendant les efforts de conservation cruciaux pour leur survie.",
+
+    "distribution_fr": "Les Lions d'Afrique se trouvent en Afrique subsaharienne, des savanes de l'Afrique de l'Est aux bois denses de l'Afrique de l'Ouest. Ils habitent les plaines herbeuses, les savanes et les bois ouverts, vivant en groupes appelés fiertés composés de plusieurs lionnes apparentées, de leurs lionceaux et de quelques mâles adultes. Les lions sont des animaux sociaux et vivent en groupes pour protéger leur territoire et chasser de manière coopérative.",
+
+    "species_fr": "Les Lions d'Afrique ont une signification culturelle et ont été présents dans le folklore, la mythologie, et sont souvent associés à la force et à la bravoure. Cependant, ils font face à des menaces telles que la perte d'habitat et les conflits homme-animal, rendant l'éducation et les efforts de conservation cruciaux pour leur survie à long terme.",
+
+    "nutrition_fr": "Les Lions d'Afrique sont carnivores et chassent principalement de grands mammifères tels que des zèbres, des gnous et des buffles. Les lions sont des prédateurs opportunistes, et leur alimentation peut également inclure des mammifères plus petits et des charognes lorsque la chasse est difficile.",
+
+    "lifestyle_fr": "Les lions sont connus pour leur comportement social, vivant en groupes qui chassent et protègent leur territoire ensemble. Ils sont souvent actifs la nuit, dormant pendant la journée. Les lions mâles sont responsables de la défense du territoire de la fierté, tandis que les lionnes sont les principales chasseuses."
+  },
+  {
+    "id": 110,
+    "name": "Bengal Tiger",
+    "top_speed": 96,
+    "order": "Carnivora",
+    "scientific_name": "Panthera tigris tigris",
+
+    "size": "Bengal Tigers are the largest of the tiger subspecies, with males reaching up to 10 feet in length and weighing up to 220 kg. Their distinctive orange coat is adorned with black stripes, providing excellent camouflage in their forest habitats.",
+
+    "lifespan": "In the wild, Bengal Tigers can live up to 10-15 years, while those in captivity may reach 20 years or more. Their longevity is affected by factors such as food availability, disease, and human-related threats.",
+
+    "conservation": "Bengal Tigers are Endangered due to habitat loss and poaching for their body parts. Conservation efforts focus on protecting their forest homes and reducing human-wildlife conflict, which poses a significant threat to their survival.",
+
+    "distribution": "Bengal Tigers are found in the Indian subcontinent, including India, Bangladesh, Nepal, and Bhutan. They prefer diverse habitats, from grasslands to forests. These solitary hunters are territorial and require vast areas to roam and hunt for their preferred prey.",
+
+    "species": "Bengal Tigers have cultural significance in their range and are considered a national symbol of India. They are also popular in wildlife conservation efforts, with numerous reserves and protected areas dedicated to their preservation.",
+
+    "nutrition": "Bengal Tigers are carnivorous and primarily prey on deer, wild boar, and other large mammals. They are skilled ambush predators and can leap great distances to catch their prey, relying on stealth and power in their hunting strategies.",
+
+    "lifestyle": "Bengal Tigers are solitary animals, with males and females coming together only for mating purposes. They are known for their strength and agility, capable of taking down large prey animals and swimming skillfully to cool off in the hot and humid environments where they live.",
+    "image_1": "https://cdn.pixabay.com/photo/2016/07/22/12/53/white-1534797_1280.jpg",
+    "image_2": "https://cdn.pixabay.com/photo/2017/06/16/05/11/white-tiger-2407799_1280.jpg",
+    "name_fr": "Tigre du Bengale",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Les Tigres du Bengale sont les plus grands parmi les sous-espèces de tigres, les mâles atteignant jusqu'à 10 pieds de long et pesant jusqu'à 220 kg. Leur pelage orange distinctif est orné de rayures noires, offrant une excellente camouflage dans leurs habitats forestiers.",
+
+    "lifespan_fr": "À l'état sauvage, les Tigres du Bengale peuvent vivre jusqu'à 10-15 ans, tandis que ceux en captivité peuvent atteindre 20 ans ou plus. Leur longévité est affectée par des facteurs tels que la disponibilité de la nourriture, les maladies et les menaces liées à l'homme.",
+
+    "conservation_fr": "Les Tigres du Bengale sont en danger en raison de la perte d'habitat et du braconnage pour leurs parties du corps. Les efforts de conservation se concentrent sur la protection de leurs foyers forestiers et la réduction des conflits homme-animal, qui constituent une menace importante pour leur survie.",
+
+    "distribution_fr": "Les Tigres du Bengale se trouvent dans le sous-continent indien, y compris l'Inde, le Bangladesh, le Népal et le Bhoutan. Ils préfèrent des habitats divers, des prairies aux forêts. Ces chasseurs solitaires sont territoriaux et nécessitent des zones vastes pour errer et chasser leur proie préférée.",
+
+    "species_fr": "Les Tigres du Bengale ont une signification culturelle dans leur aire de répartition et sont considérés comme un symbole national de l'Inde. Ils sont également populaires dans les efforts de conservation de la faune, avec de nombreuses réserves et zones protégées dédiées à leur préservation.",
+
+    "nutrition_fr": "Les Tigres du Bengale sont carnivores et se nourrissent principalement de cerfs, de sangliers et d'autres grands mammifères. Ils sont des prédateurs embusqués habiles et peuvent sauter sur de grandes distances pour attraper leur proie, comptant sur la furtivité et la puissance dans leurs stratégies de chasse.",
+
+    "lifestyle_fr": "Les Tigres du Bengale sont des animaux solitaires, les mâles et les femelles se réunissant uniquement à des fins de reproduction. Ils sont connus pour leur force et leur agilité, capables de neutraliser de grandes proies et de nager habilement pour se rafraîchir dans les environnements chauds et humides où ils vivent."
+  },
+  {
+    "id": 111,
+    "name": "Sunda Clouded Leopard",
+    "top_speed": "64",
+    "order": "Carnivora",
+    "scientific_name": "Neofelis diardi",
+
+    "size": "The Sunda clouded leopard is a medium-sized felid of the genus Neofelis. It is muscular, with a long body, relatively short legs and a broad head. Its fur is grayish or yellowish with large cloud-shaped markings.",
+
+    "lifespan": "Sunda clouded leopards live for 11-15 years in the wild, while in captivity they can live over 20 years.",
+
+    "conservation": "Vulnerable",
+
+    "distribution": "Sunda clouded leopards are found on the islands of Borneo and Sumatra in Southeast Asia.",
+
+    "species": "Sunda clouded leopards have a significant cultural and ecological importance in the region.",
+
+    "nutrition": "Sunda clouded leopards are carnivores and have a diet that includes a wide range of prey.",
+
+    "lifestyle": "Sunda clouded leopards are solitary animals and are known for their arboreal lifestyle.",
+    "image_1": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1544979590-37e9b47eb705?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Léopard nuageux de Sunda",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le léopard nuageux de Sunda est un félin de taille moyenne du genre Neofelis. Il est musclé, avec un corps long, des pattes relativement courtes et une tête large. Son pelage est grisâtre ou jaunâtre avec de grandes marques en forme de nuage.",
+
+    "lifespan_fr": "Les léopards nuageux de Sunda vivent de 11 à 15 ans à l'état sauvage, tandis qu'en captivité, ils peuvent vivre plus de 20 ans.",
+
+    "conservation_fr": "Vulnérable",
+
+    "distribution_fr": "Les léopards nuageux de Sunda se trouvent sur les îles de Bornéo et de Sumatra en Asie du Sud-Est.",
+
+    "species_fr": "Les léopards nuageux de Sunda ont une importance culturelle et écologique significative dans la région.",
+
+    "nutrition_fr": "Les léopards nuageux de Sunda sont carnivores et ont un régime alimentaire qui comprend une large gamme de proies.",
+
+    "lifestyle_fr": "Les léopards nuageux de Sunda sont des animaux solitaires et sont connus pour leur mode de vie arboricole."
+  },
+  {
+    "id": 112,
+    "name": "Cheetah",
+    "top_speed": 112,
+    "order": "Carnivora",
+    "scientific_name": "Acinonyx jubatus",
+
+    "size": "Cheetahs are slender and streamlined big cats, with a body length of about 3.5 to 4.5 feet and weighing between 46 to 160 kg. They are recognized by their distinctive black spots on a pale golden background.",
+
+    "lifespan": "In the wild, Cheetahs usually live to 8 to 10 years, while those in captivity can live slightly longer. Their short lifespan is often due to high mortality rates among cubs and competition with larger predators.",
+
+    "conservation": "Cheetahs are listed as Vulnerable, primarily due to habitat loss and poaching. Their populations have dwindled, and conservation efforts focus on protecting their remaining habitats and reducing human-wildlife conflict.",
+
+    "distribution": "Cheetahs are found in parts of Africa, inhabiting a range of habitats from grasslands to savannas. They are known for their incredible speed, which enables them to chase down prey such as gazelles and impalas, but their speed is limited to short sprints.",
+
+    "species": "Cheetahs have fascinated humans for centuries, with their incredible speed and sleek appearance. They have also been associated with grace and elegance in art and culture. Conservation efforts aim to ensure the survival of this unique big cat.",
+
+    "nutrition": "Cheetahs are obligate carnivores, primarily preying on small to medium-sized ungulates. Their hunting style involves stalking and sprinting, making them one of the most formidable sprinters in the animal kingdom.",
+
+    "lifestyle": "Cheetahs are mostly solitary animals, except during mating and when a mother raises her cubs. They are known for their exceptional speed, capable of reaching 112 km/h in short bursts, allowing them to catch prey through a burst of acceleration.",
+    "image_1": "https://images.unsplash.com/photo-1624958723474-05d32b99005f?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1630315956721-b1cd928bd0d4?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Guépard",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Les guépards sont des grands félins élancés et profilés, avec une longueur corporelle d'environ 3,5 à 4,5 pieds et un poids compris entre 46 et 160 kg. Ils se distinguent par leurs taches noires sur un fond doré pâle.",
+
+    "lifespan_fr": "À l'état sauvage, les guépards vivent généralement de 8 à 10 ans, tandis que ceux en captivité peuvent vivre légèrement plus longtemps. Leur courte durée de vie est souvent due à un taux de mortalité élevé parmi les petits et à la concurrence avec des prédateurs plus grands.",
+
+    "conservation_fr": "Les guépards sont classés comme vulnérables, principalement en raison de la perte d'habitat et du braconnage. Leurs populations ont diminué, et les efforts de conservation se concentrent sur la protection de leurs habitats restants et la réduction des conflits entre l'homme et la faune sauvage.",
+
+    "distribution_fr": "Les guépards se trouvent dans certaines régions d'Afrique, habitant une gamme d'habitats allant des prairies aux savanes. Ils sont connus pour leur vitesse incroyable, qui leur permet de poursuivre des proies telles que des gazelles et des impalas, mais leur vitesse est limitée à de courtes sprints.",
+
+    "species_fr": "Les guépards fascinent les humains depuis des siècles, avec leur vitesse incroyable et leur apparence élégante. Ils ont également été associés à la grâce et à l'élégance dans l'art et la culture. Les efforts de conservation visent à assurer la survie de ce grand félin unique.",
+
+    "nutrition_fr": "Les guépards sont des carnivores obligatoires, se nourrissant principalement d'ungulés de petite à moyenne taille. Leur style de chasse implique la traque et la course, ce qui en fait l'un des sprinters les plus redoutables du règne animal.",
+
+    "lifestyle_fr": "Les guépards sont principalement des animaux solitaires, sauf pendant l'accouplement et lorsque la mère élève ses petits. Ils sont connus pour leur vitesse exceptionnelle, capable d'atteindre 112 km/h en de courtes rafales, ce qui leur permet de capturer des proies grâce à une accélération fulgurante."
+  },
+  {
+    "id": 113,
+    "name": "White Tiger",
+    "top_speed": "64",
+    "order": "Carnivora",
+    "scientific_name": "Panthera tigris tigris (leucistic)",
+
+    "size": "The white tiger is a striking variant of the Bengal tiger. It has a unique white coat with dark stripes and blue eyes.",
+
+    "lifespan": "White tigers typically live for 10-15 years in the wild and can have similar lifespans in captivity.",
+
+    "conservation": "Critically Endangered",
+
+    "distribution": "White tigers are not found in the wild. They are a product of captive breeding programs and not a separate subspecies.",
+
+    "species": "White tigers have captivated human fascination due to their rarity and distinctive appearance. They are often featured in zoos and wildlife conservation efforts.",
+
+    "nutrition": "White tigers are carnivores and share a diet similar to other Bengal tigers, preying on animals such as deer and wild boar.",
+
+    "lifestyle": "White tigers, like other Bengal tigers, are solitary animals known for their strength and agility.",
+    "image_1": "https://images.unsplash.com/photo-1559629250-d19ade798ced?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1653677185630-212a412efaa5?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Tigre Blanc",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le tigre blanc est une variante frappante du tigre du Bengale. Il a une robe blanche unique avec des rayures sombres et des yeux bleus.",
+
+    "lifespan_fr": "Les tigres blancs vivent généralement de 10 à 15 ans à l'état sauvage et peuvent avoir des durées de vie similaires en captivité.",
+
+    "conservation_fr": "En danger critique",
+
+    "distribution_fr": "Les tigres blancs ne se trouvent pas à l'état sauvage. Ils sont le produit de programmes d'élevage en captivité et ne constituent pas une sous-espèce distincte.",
+
+    "species_fr": "Les tigres blancs ont captivé la fascination humaine en raison de leur rareté et de leur apparence distinctive. Ils sont souvent présentés dans les zoos et les efforts de conservation de la vie sauvage.",
+
+    "nutrition_fr": "Les tigres blancs sont des carnivores et partagent un régime alimentaire similaire à celui des autres tigres du Bengale, chassant des animaux tels que des cerfs et des sangliers.",
+
+    "lifestyle_fr": "Les tigres blancs, comme les autres tigres du Bengale, sont des animaux solitaires connus pour leur force et leur agilité."
+  },
+
+  {
+    "id": 114,
+    "name": "Serval",
+    "top_speed": "80",
+    "order": "Carnivora",
+    "scientific_name": "Leptailurus serval",
+
+    "size": "The Serval is a medium-sized wild cat with a slender body, long legs, and a distinctive coat with small spots and stripes. It is known for its agility and jumping ability.",
+
+    "lifespan": "Servals typically live for 10-12 years in the wild and can have a longer lifespan in captivity.",
+
+    "conservation": "Least Concern",
+
+    "distribution": "Servals are native to Africa and are found in a range of habitats, including grasslands, savannas, and wetlands.",
+
+    "species": "Servals have cultural significance in some African regions and are admired for their unique appearance. They are occasionally kept as exotic pets.",
+
+    "nutrition": "Servals are carnivorous and prey on small mammals, birds, and reptiles. They are skilled hunters known for their ability to leap high to catch birds in flight.",
+
+    "lifestyle": "Servals are solitary and crepuscular hunters, meaning they are most active during dawn and dusk. They are territorial and communicate using vocalizations.",
+    "image_1": "https://images.unsplash.com/flagged/photo-1551255868-86bbc8e0f971?auto=format&fit=crop&q=80&w=1841&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_2": "https://images.unsplash.com/photo-1621139265009-11ce7f5d441f?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name_fr": "Serval",
+    "order_fr": "Carnivores",
+
+    "size_fr": "Le serval est un chat sauvage de taille moyenne avec un corps élancé, des pattes longues et une robe distinctive avec de petits points et des rayures. Il est connu pour son agilité et sa capacité à sauter.",
+
+    "lifespan_fr": "Les servals vivent généralement de 10 à 12 ans à l'état sauvage et peuvent avoir une durée de vie plus longue en captivité.",
+
+    "conservation_fr": "Préoccupation mineure",
+
+    "distribution_fr": "Les servals sont originaires d'Afrique et se trouvent dans divers habitats, notamment les prairies, les savanes et les zones humides.",
+
+    "species_fr": "Les servals ont une importance culturelle dans certaines régions d'Afrique et sont admirés pour leur apparence unique. Ils sont parfois gardés comme animaux de compagnie exotiques.",
+
+    "nutrition_fr": "Les servals sont carnivores et chassent de petits mammifères, des oiseaux et des reptiles. Ils sont des chasseurs habiles, connus pour leur capacité à sauter haut pour attraper des oiseaux en vol.",
+
+    "lifestyle_fr": "Les servals sont des chasseurs solitaires et crépusculaires, ce qui signifie qu'ils sont plus actifs au lever et au coucher du soleil. Ils sont territoriaux et communiquent par des vocalisations."
+  }
+]

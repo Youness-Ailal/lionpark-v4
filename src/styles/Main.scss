@@ -1,0 +1,176 @@
+// @import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+// font-family: 'Helvetica Neue', sans-serif;
+
+@font-face {
+  font-family: "lemon-regular";
+  src: url("/fonts/lemon-light.otf");
+  font-weight: 300;
+  font-size: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "lemon-regular";
+  src: url("/fonts/lemon-regular.otf");
+  font-weight: 400;
+  font-size: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "lemon";
+  src: url("/fonts/lemon-mid.otf");
+  font-weight: 500;
+  font-size: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "lemon-bold";
+  src: url("/fonts/lemon-bold.otf");
+  font-weight: 600, 700;
+  font-size: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #fefefb;
+  --bg-color: #fcfdf6;
+  --super-dark-green: #0b2d17;
+  --dark-green: #063718;
+  // --text-color: #124a26;
+  --text-color: #0b2d17;
+  --orange: #f2712c;
+  --orange-hover: #f4833a;
+  --normal-green: #6a922a;
+  --normal-green-hover: #536f25;
+  --disabled-button: #3f5321;
+  --disabled-text: #eaf3d4;
+  --light-green: #e3f1bc;
+  --light-green-2: #c8da7c;
+  --super-light-green: #f6f9e6;
+  --super-light-green-2: #fcfdf7;
+  --light-grey: #dfe2e6;
+  --grey: #6b7280;
+  --body-overflow: auto;
+
+  --radius-lg: 3rem;
+  --radius-bg: 1rem;
+  --radius-md: 0.6rem;
+  --radius-sm: 0.2rem;
+}
+::selection {
+  background-color: rgb(106, 146, 42, 0.5);
+}
+html {
+  font-size: clamp(8px, 1vw, 10px);
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  @media (max-width: 425px) {
+    font-size: 7px;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  position: relative;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  &:disabled {
+    scale: 1;
+  }
+}
+a,
+button {
+  transition: 0.2s;
+  transform-origin: center;
+  font-family: inherit;
+  cursor: pointer;
+}
+button:active {
+  scale: 0.98;
+}
+img {
+  object-fit: cover;
+}
+body {
+  background-color: var(--bg-color);
+  line-height: 1.5;
+  font-family: "lemon-regular", "lemon", sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+  overflow-y: var(--body-overflow);
+  overflow-x: hidden !important;
+  max-width: 100dvw;
+}
+
+.main-title {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--normal-green);
+  border-radius: 0.2rem;
+  &:hover {
+    background-color: var(--normal-green-hover);
+  }
+}
+::-webkit-scrollbar-track {
+  background-color: var(--light-green);
+  border-radius: 20rem;
+}
+
+.lazy-loader {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  // border-radius: 2rem;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  opacity: 1;
+  transition: 1s;
+}
+.lazy-spinner {
+  height: 4rem;
+  aspect-ratio: 1;
+
+  border-radius: 50rem;
+  border: 4px solid var(--light-green);
+  border-right: 4px solid var(--normal-green-hover);
+  animation: spinner 0.3s linear infinite;
+}
+
+@keyframes spinner {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 1turn;
+  }
+}
+
+.hidden-loader {
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+  div {
+    display: none;
+  }
+}

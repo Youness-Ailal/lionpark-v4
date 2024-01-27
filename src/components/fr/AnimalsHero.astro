@@ -1,0 +1,47 @@
+---
+import "@styles/Animals.scss";
+import animalsJson from "../../assets/Animals.json";
+//@ts-ignore
+import { Icon } from "astro-icon/components";
+//@ts-ignore
+import Loader from "@ui/loader.astro";
+const animals = animalsJson;
+
+// defaultLocale is "es"
+---
+
+<section class="animals">
+  <div class="container animals__container">
+    <h2 class="heading-second animals__title page-title">
+      Découvrez nos grands félins
+    </h2>
+    <ul class="animals__list">
+      {
+        animals.map(animal => {
+          return (
+            <li class="animals__item">
+              <Loader />
+              <a class="animals__link" href={`/fr/Animal/${animal.id}`}>
+                <img
+                  class="animals__image lazy"
+                  data-src={animal.image_1}
+                  alt={animal.lifespan_fr}
+                  transition:name="animalphoto"
+                />
+                <a href={`/fr/Animal/${animal.id}`} class="animals__details">
+                  <p class="animals__name">{animal.name_fr}</p>
+                  <p class="animals__seemore">
+                    <Icon
+                      class="icon animals__icon"
+                      name="system-uicons:arrow-top-right"
+                    />
+                  </p>
+                </a>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</section>

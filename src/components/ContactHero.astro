@@ -1,0 +1,76 @@
+---
+import "../styles/Contact.scss";
+import { Icon } from "astro-icon/components";
+---
+
+<section class="contact">
+  <div class="container contact__container">
+    <h2 class="heading-second contact__title page-title">Drop us a Message</h2>
+    <div class="contact__content">
+      <div class="contact__left">
+        <form class="contact__form">
+          <div class="contact__form--field">
+            <input
+              class="input"
+              type="text"
+              required
+              id="contact_name"
+              placeholder="Name"
+            />
+          </div>
+          <div class="contact__form--field">
+            <input
+              class="input"
+              type="email"
+              required
+              id="contact_email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="contact__form--field">
+            <textarea class="area" id="contact__message" placeholder="Message"
+            ></textarea>
+          </div>
+          <button class="cta"
+            >Send<Icon
+              class="icon contact__form--icon"
+              name="carbon:send"
+            /></button
+          >
+        </form>
+      </div>
+      <div class="contact__right">
+        <a href="tel:+212624360624" class="contact__info link">
+          <Icon class="icon contact__icon" name="carbon:phone" />
+          +212 123456789</a
+        >
+        <p class="paragraph contact__info">
+          <Icon class="icon contact__icon" name="carbon:location" />Drarga
+          street 1, Agadir Morocco
+        </p>
+        <div class="contact__socials">
+          <a target="_blank" href="https://facebook.com/"
+            ><Icon class="icon contact__social" name="mdi:facebook" /></a
+          >
+          <a target="_blank" href="https://www.instagram.com/"
+            ><Icon class="icon contact__social" name="mdi:instagram" /></a
+          >
+          <a target="_blank" href="https://www.youtube.com/"
+            ><Icon class="icon contact__social" name="mdi:youtube" /></a
+          >
+          <a target="_blank" href="https://www.linkedin.com/in/youness-ailal/"
+            ><Icon class="icon contact__social" name="mdi:linkedin" /></a
+          >
+        </div>
+        <iframe
+          class="contact__map"
+          style="border:0"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCoJheqNQWswwrqghG_wgXyeaRFY6qv3pg
+    &q=Lion+Park,9GRC+FM, Drarga &zoom=15">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>

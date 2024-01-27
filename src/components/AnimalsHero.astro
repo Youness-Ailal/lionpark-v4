@@ -1,0 +1,44 @@
+---
+import "../styles/Animals.scss";
+//@ts-ignore
+import animalsJson from "@assets/Animals.json";
+//@ts-ignore
+import { Icon } from "astro-icon/components";
+//@ts-ignore
+import Loader from "@ui/loader.astro";
+const animals = animalsJson;
+---
+
+<section class="animals">
+  <div class="container animals__container">
+    <h2 class="heading-second animals__title page-title">Meet Our Big Cats</h2>
+    <ul class="animals__list">
+      {
+        animals.map(animal => {
+          return (
+            <li class="animals__item">
+              <Loader />
+              <a class="animals__link" href={`/Animal/${animal.id}`}>
+                <img
+                  class="animals__image lazy"
+                  data-src={animal.image_1}
+                  alt={animal.lifespan}
+                  transition:name="animalphoto"
+                />
+                <a href={`/Animal/${animal.id}`} class="animals__details">
+                  <p class="animals__name">{animal.name}</p>
+                  <p class="animals__seemore">
+                    <Icon
+                      class="icon animals__icon"
+                      name="system-uicons:arrow-top-right"
+                    />
+                  </p>
+                </a>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+---
+import "@/styles/Hero.scss";
+import SelectButton from "@ui/SelectButton.astro";
+
+import HeroSwiper from "./HeroSwiper.jsx";
+---
+
+<section class="hero">
+  <div class="hero__top">
+    <div class="hero__buttons">
+      <SelectButton href="#location" iconName="mdi:location-on-outline">
+        Localisation
+      </SelectButton>
+      <SelectButton href="#map-cart" iconName="mdi:map-outline">
+        Plan du zoo
+      </SelectButton>
+      <SelectButton href="/fr/Animals" iconName="mdi:paw">
+        Nos animaux
+      </SelectButton>
+    </div>
+  </div>
+  <div class="hero__content">
+    <div class="hero__mid">
+      <h1 class="hero__title heading">LION PARK AGADIR</h1>
+      <a href="/fr/Tickets" class="hero__button big-button"
+        >Réserver <br />Billets</a
+      >
+    </div>
+    <HeroSwiper client:load />
+  </div>
+</section>

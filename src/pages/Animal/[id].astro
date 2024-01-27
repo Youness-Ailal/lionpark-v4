@@ -1,0 +1,145 @@
+---
+import animalsJson from "../../assets/Animals.json";
+import MainLayout from "../../Layouts/MainLayout.astro";
+import Loader from "../../components/ui/loader.astro";
+import "../../styles/Animal.scss";
+import { Icon } from "astro-icon/components";
+
+const animals = animalsJson;
+
+export const getStaticPaths = () => {
+  const StaticParams = animalsJson.map(item => {
+    return { params: { id: item?.id } };
+  });
+  return StaticParams;
+};
+
+const { id: animalId } = Astro.params;
+const animal = animals.find(el => el.id === +animalId);
+if (!animal) return Astro.redirect("/");
+console.log("test");
+
+const alt = animal.lifespan;
+---
+
+<MainLayout title={animal.name}>
+  <section class="animal">
+    <div class="container animal__container">
+      <div class="animal__top">
+        <div class="animal__top--left">
+          <div class="animal__name">
+            <h3 class="heading-third animal__name--text">{animal.name}</h3>
+            <Icon class="icon animal__icon animal__icon--1" name="mdi:paw" />
+          </div>
+          <ul class="animal__infos">
+            <li class="animal__info">
+              <strong>scientific name</strong>
+              <p>:</p>
+              {animal.scientific_name}
+            </li>
+            <li class="animal__info">
+              <strong>top speed</strong>
+              <p>:</p>
+              {animal.top_speed} km/h
+            </li>
+            <li class="animal__info">
+              <strong>order</strong>
+              <p>:</p>
+              {animal.order}
+            </li>
+          </ul>
+        </div>
+        <div class="animal__top--right">
+          <Loader />
+          <img
+            data-src={animal?.image_1}
+            alt={alt}
+            class="animal__image lazy"
+            transition:name="animalphoto"
+          />
+        </div>
+      </div>
+      <div class="animal__mid1">
+        <!-- Card -->
+        <div class="animal__card animal__card--short">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">Size</h4>
+            <Icon
+              class="icon animal__icon"
+              name="fluent:slide-size-24-regular"
+            />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.size}</p>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="animal__card animal__card--short">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">LifeSpan</h4>
+            <Icon class="icon animal__icon" name="mdi:information-outline" />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.lifespan}</p>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="animal__card animal__card--short animal__card--orange">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">
+              Conservation Status
+            </h4>
+            <Icon class="icon animal__icon" name="carbon:book" />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.conservation}</p>
+          </div>
+        </div>
+      </div>
+      <div class="animal__mid2">
+        <div class="animal__card animal__card--long">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">Distribution</h4>
+            <Icon class="icon animal__icon" name="carbon:location" />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.distribution}</p>
+          </div>
+        </div>
+        <div class="animal__card animal__card--short">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">Coevolution</h4>
+            <Icon class="icon animal__icon" name="carbon:user-avatar" />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.species}</p>
+          </div>
+        </div>
+      </div>
+      <div class="animal__bottom">
+        <div class="animal__card animal__card--short">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">Nutrition</h4>
+            <Icon class="icon animal__icon" name="mdi:food-drumstick-outline" />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.nutrition}</p>
+          </div>
+        </div>
+        <div class="animal__card animal__card--short animal__card--image">
+          <Loader />
+          <img data-src={animal.image_2} alt={alt} class="lazy" />
+        </div>
+        <div class="animal__card animal__card--short">
+          <div class="animal__card--name">
+            <h4 class="heading-third animal__card--name-text">Lifestyle</h4>
+            <Icon class="icon animal__icon" name="mdi:heart-outline" />
+          </div>
+          <div class="animal__card--details">
+            <p class="paragraph">{animal.lifestyle}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>

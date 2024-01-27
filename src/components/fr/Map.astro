@@ -1,0 +1,42 @@
+---
+// import mapBg from "/images/map-bg.svg?url";
+const mapBg =
+  " https://res.cloudinary.com/ddi3hd3cx/image/upload/w_1500/v1706362343/lionpark-gallery/map-bg_v7e8nf.jpg";
+import lowImage from "/images/lowqt.svg?url";
+import "@styles/Map.scss";
+import { Icon } from "astro-icon/components";
+---
+
+<section class="map" id="map-cart">
+  <div class="container map__container">
+    <div class="map__top">
+      <h1 class="heading-second map__title">Explorer la carte</h1>
+    </div>
+    <div class="map__bottom">
+      <a
+        href="https://res.cloudinary.com/ddi3hd3cx/image/upload/v1706362343/lionpark-gallery/map-bg_v7e8nf.jpg"
+        download
+        class="map__download">
+        Télécharger carte<Icon
+          class="icon map__icon"
+          name="mdi:tray-download"
+        />
+      </a>
+      <div class="map__bg-map--container">
+        <div class="lazy-loader">
+          <div class="lazy-spinner"></div>
+        </div>
+        <img
+          class="map__bg-map lazy"
+          src={lowImage}
+          data-src={mapBg}
+          alt="lion park map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import svgMap from "../../public/images/map-bg.svg";
+</script>

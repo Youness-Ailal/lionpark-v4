@@ -1,0 +1,37 @@
+---
+import "@styles/Rare.scss";
+import { Vimeo } from "astro-embed";
+const IMAGE_BASE_URL =
+  "https://res.cloudinary.com/ddi3hd3cx/image/upload/w_450/lionpark-swipers";
+---
+
+<section class="rare">
+  <div class="container rare__container">
+    <div class="rare__top">
+      <h2 class="heading-second rare__title">
+        Visitez le Centre de Reproduction d'Animaux Rares
+      </h2>
+    </div>
+    <div class="rare__bottom">
+      <div class="rare__left">
+        <div class="rare__video--container">
+          <Vimeo id="475645175" poster={`${IMAGE_BASE_URL}/lion_video.jpg`} />
+        </div>
+      </div>
+      <div class="rare__right">
+        <p class="paragraph rare__text">
+          Le Centre de Reproduction d'Animaux Rares, situé à seulement 100 km
+          d'Agadir au Maroc, s'étend sur 200 hectares et abrite plus de 7 500
+          animaux de 213 espèces, couvrant des continents de l'Arctique à
+          l'Afrique. Nous sommes dédiés à la préservation et à la protection des
+          espèces en voie de disparition, et nos succès incluent la première
+          reproduction au Maroc de gloutons, vigognes, moutons Marco Polo et
+          cigognes d'Extrême-Orient. Vous pouvez nous rendre visite
+          individuellement ou en groupe pour observer ces animaux dans leurs
+          habitats naturels.
+        </p>
+        <a class="cta" href="/fr/Tickets">Explorez le Tour</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+---
+import { Icon } from "astro-icon/components";
+import "../../styles/Navigation.scss";
+const { country = "uk" } = Astro.props as { country: "uk" | "france" };
+---
+
+<div class="header__language">
+  <Icon name={country} class="header__language--icon" />
+</div>
