@@ -1,10 +1,11 @@
 ---
-import animalsJson from "../../../assets/Animals.json";
-import MainLayout from "../../../Layouts/MainLayout_FR.astro";
+import animalsJson from "@assets/Animals.json";
+//@ts-ignore
+import MainLayout from "@layouts/MainLayout_FR.astro";
 
 //@ts-ignore
-import Loader from "../../../components/ui/Loader.astro";
-import "../../../styles/Animal.scss";
+import Loader from "@components/ui/Loader.astro";
+import "@styles/Animal.scss";
 import { Icon } from "astro-icon/components";
 
 const animals = animalsJson;
