@@ -11,6 +11,7 @@ import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 //@ts-ignore
 import { SEO } from "astro-seo";
+import Notification from "@/components/Notification.astro";
 ---
 
 <!doctype html>
@@ -50,6 +51,7 @@ import { SEO } from "astro-seo";
     <meta name="description" content={description} />
   </head>
   <body>
+    <Notification />
     <Navigation />
     <main>
       <slot />
